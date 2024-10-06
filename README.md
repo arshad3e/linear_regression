@@ -32,7 +32,7 @@ bash
 Copy code
 
 ```python
-python linear_regression.py
+python simple_linear_regression_example.py
 ```
 
 This will create a plot showing the actual data points (in blue) and the fitted regression line (in red).
