@@ -52,6 +52,14 @@ model.fit(X, y)
 # Make predictions for the entire dataset
 y_pred = model.predict(X)
 
+# Calculate MSE and R-squared
+mse = mean_squared_error(y, y_pred)
+r2 = r2_score(y, y_pred)
+
+# Print the evaluation metrics
+print(f"Mean Squared Error: {mse}")
+print(f"R-squared: {r2}")
+
 # Predict the disease progression for the normalized input value
 predicted_progression = model.predict([[normalized_input_value]])
 
