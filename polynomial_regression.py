@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the diabetes dataset
+#Different data sets can be loaded
 diabetes = load_diabetes()
 
 # Use only one feature (e.g., BMI feature at index 2)
