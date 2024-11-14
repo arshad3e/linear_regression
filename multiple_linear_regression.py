@@ -1,3 +1,4 @@
+# multiple linear regression where various features can be included to get prediction
 # Import necessary libraries
 from sklearn.datasets import load_diabetes
 from sklearn.linear_model import LinearRegression
