@@ -6,6 +6,7 @@ from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 import numpy as np
 
+#Add logic to include continuous stream of data and understand the quality
 # Load the diabetes dataset
 #Different data sets can be loaded
 diabetes = load_diabetes()
