@@ -34,3 +34,7 @@ plt.ylabel('Disease Progression')
 plt.title('Polynomial Regression: Diabetes Dataset')
 plt.legend()
 plt.show()
+
+#Add logic to reference from different portions of data and compare the data quality.
+
+
