@@ -37,5 +37,6 @@ plt.legend()
 plt.show()
 
 #Add logic to reference from different portions of data and compare the data quality.
+#Add logic to udde different libraries not only scikit
 
 
